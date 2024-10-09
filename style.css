@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif,Arial;
+    font-size: 16 px;/* size default*/
+}
+header{
+    background-color: #f0f0f0;
+}
+nav {
+    display: inline-block;
+    width: 80%;
+}
+main{
+    background-color: #fff;
+    font-size: 18px;
+}
+footer{
+    background-color: #f0f0f0;
+}
+li{
+    display: inline;
+    width: 100px;
+}
+/*
+li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+*/
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+
+p {
+    line-height: 1.6;
+}
+nav img {
+    width: 10%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+}
+.grid img {
+    width: 100%;
+}
+.grid {
+    justify-content: center; /* or other values */
+    align-items: start; /* or other values */
+    row-gap: 20px; /* adjust as needed */
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* allows wrapping */
+    justify-content: space-between; /* or other values */
+}
